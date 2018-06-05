@@ -25,5 +25,6 @@ public class GekoHeadlessClass {
 		
 		
 		System.out.println("Test Completed");
+		driver.quit();
 	}
 }
