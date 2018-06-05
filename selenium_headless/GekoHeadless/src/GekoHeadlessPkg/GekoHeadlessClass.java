@@ -21,7 +21,7 @@ public class GekoHeadlessClass {
 		driver.findElement(By.name("btnK")).click();
 		driver.findElement(By.linkText("Selenium - Web Browser Automation")).click();
 		String strTitle = driver.getTitle();
-		assertEquals(strTitle, "Selenium - Web Browser Automation");
+		assertEquals(strTitle, "Selenium - Google Search");
 		
 		
 		System.out.println("Test Completed");
